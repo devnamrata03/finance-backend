@@ -51,4 +51,4 @@ Windows:
 terminal:-venv\Scripts\activate
 pip install uvicorn
 pip list
-unicorn app.main:app --reload
+uvicorn app.main:app --reload
